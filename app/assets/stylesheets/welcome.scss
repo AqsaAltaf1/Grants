@@ -1,0 +1,302 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.main{
+  opacity: 0.80;
+  position: fixed;
+  background: #2c2929;
+}
+.main a{
+  color: white;
+}
+#carouselExampleCaptions{
+  opacity: 0.8;
+  background:black;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.carousel-inner img{
+  background-size: cover;
+}
+.flex-container{
+  display:flex;
+  flex-direction: row;
+}
+.second {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  padding: 50px;
+}
+.second h3 {
+  color: rgb(10, 8, 8);
+  font-weight: 600;
+  font-size: 2rem;
+}
+.services{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+.service1{
+  margin-left: 20px;
+}
+.service1 img{
+  width:180px;
+  height:150px;
+}
+.heading5{
+  margin-top:10px;
+}
+.carousel-item {
+  height:600px;
+}
+.first{
+  background-image:url("./author.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  width:100%;
+  background-size: cover;
+  height: 600px;
+
+}
+
+.main2 {
+  background-color: black;
+  opacity: 0.8;
+  position: relative;
+  height: 600px;
+  text-align: left;
+  padding-top:200px;
+  padding-left: 50px;
+}
+
+.main2 h2 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+  margin-top: 20px;
+}
+.main2 h3 {
+  font-size: 2rem;
+  color: white;
+
+}
+.main2 p {
+  color: white;
+  font-size:1.2rem;
+  word-spacing:6px;
+}
+
+.intro{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ border-bottom: 1px solid #dee2e6;
+}
+.pra{
+  text-transform: uppercase;
+  font-size:1.1rem;
+}
+.para2{
+  opacity: 0.8;
+  color: #444;
+}
+.pdata{
+  opacity: 0.8;
+  color: #444;
+  padding-left: 4px;
+}
+.experth{
+  padding-left:30px;
+}
+.intro2{
+  flex-basis: 33.3%;
+  padding: 50px;
+}
+.proto{
+  margin-top:20px;
+  padding-bottom:20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size:2.5rem;
+  color:#52AA9D;
+  box-shadow: 0px 1px 1px #666666;
+}
+.bttn {
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px #666666;
+  font-family: Arial;
+  color: #171217;
+  font-size: 21px;
+  padding: 7px;
+  border: solid #52AA9D 3px;
+  color:#52AA9D;
+  text-decoration: none;
+}
+.bttn:hover {
+  background: #3ad1a6;
+}
+.intro2 h5 {
+  font-size:25px;
+}
+.content2 ul{
+  list-style: none;
+}
+.content2{
+  display: flex;
+  flex-direction: row;
+}
+.expert h5 {
+  font-size:25px;
+}
+.content2{
+  margin-top:20px;
+  margin: 10;
+  display: flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.icons img{
+  width: 40px;
+  height: 40px;
+  margin-top: 12px;
+}
+.data li{
+  margin-top:20px;
+  margin-bottom:10px;
+}
+.second h3{
+  color:#52AA9D;
+  font-weight: 900;
+  font-size:2.5rem;
+  margin-bottom:20px;
+}
+.resume{
+  height: auto;
+  width: 100%;
+  margin-top: 40px;
+  padding: 50px;
+}
+.resume h5{
+  margin-bottom:30px;
+}
+
+.resume h1{
+  margin-bottom:40px;
+}
+.date{
+  font-size: 1.3rem;
+  color:#52AA9D;;
+}
+.para-data{
+  font-size:0.9rem;
+  opacity: .8;
+  color: #444;
+}
+.head1{
+  color:#52AA9D;
+}
+.resume h5{
+  font-size:25px;
+}
+.experience{
+  border:solid #dee2e6 1px;
+  padding: 30px;
+}
+.education {
+  margin-right: 20px;
+}
+.education1{
+  border:solid #dee2e6 1px;
+  padding: 30px;
+}
+.projects{
+  border:solid #dee2e6 1px;
+  padding: 30px;
+  margin-top:20px;
+}
+.third-card{
+  margin-left: 20px;
+}
+.statement{
+  border:solid #dee2e6 1px;
+  padding:30px;
+}
+.languages{
+  border:solid #dee2e6 1px;
+  padding:30px;
+  margin-top:30px;
+}
+.languages h6{
+  opacity: .8;
+  color: #444;
+}
+.skill{
+  border:solid #dee2e6 1px;
+  padding:30px;
+  margin-top:30px;
+}
+.skill h6{
+  opacity: .8;
+  color: #444;
+}
+.second-card h5{
+  margin-bottom:30px;
+  font-size:1.8rem;
+}
+.refrences{
+  border:solid #dee2e6 1px;
+  margin-top:30px;
+}
+.highlight{
+  border:solid #dee2e6 1px;
+  padding:30px;
+  margin-top:30px;
+  margin-right: 50px;
+}
+.refrences img{
+  width:30px;
+  height:30px;
+}
+.refrences a{
+  text-decoration: none;
+}
+.refrences h5{
+  margin-left:50px;
+}
+.highlight h5{
+  margin-left:50px;
+  margin-top: 20px;
+}
+.second-card p{
+  font-size:1rem;
+  opacity: .8;
+  color: #444;
+}
+.refrences p{
+  line-height:30px;
+}
+.services h5{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.service1 p{
+  opacity: 0.8;
+  color: #444;
+}
+.third {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  padding: 50px;
+}
+.third h3 {
+  color:#52AA9D;
+  font-weight: 600;
+  font-size:2rem;
+}
