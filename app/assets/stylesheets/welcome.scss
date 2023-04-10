@@ -37,8 +37,6 @@
 }
 .services{
   overflow: hidden;
-  display: flex;
-  justify-content: space-evenly;
 }
 .service1{
   margin-left: 20px;
@@ -46,9 +44,6 @@
 .service1 img{
   width:180px;
   height:150px;
-}
-.heading5{
-  margin-top:10px;
 }
 .carousel-item {
   height:600px;
@@ -187,10 +182,11 @@
 
 .resume h1{
   margin-bottom:40px;
+  margin-left:30px;
 }
 .date{
   font-size: 1.3rem;
-  color:#52AA9D;;
+  color:#52AA9D;
 }
 .para-data{
   font-size:0.9rem;
@@ -292,11 +288,74 @@
   height: auto;
   width: 100%;
   text-align: center;
-  margin-top: 20px;
-  padding: 50px;
+  margin-top:50px;
+  background-color: #343a40
 }
 .third h3 {
-  color:#52AA9D;
-  font-weight: 600;
+  color:white;
+  font-weight:400;
   font-size:2rem;
+}
+.hire {
+  background: #52AA9D;
+  background-image: linear-gradient(to bottom, #52AA9D, #52AA9D);
+  border-radius: 12px;
+  font-family: Arial;
+  color: #171417;
+  font-size: 25px;
+  text-decoration: none;
+  width: 150px;
+}
+.hire:hover {
+  background: #38bda7;
+  background-image: linear-gradient(to bottom, #38bda7, #40a692);
+  text-decoration: none;
+}
+.content h3{
+  padding-top:40px;
+  padding-bottom:20px;
+}
+.forth{
+  margin-top:50px;
+}
+.forth{
+  margin-top:50px;
+}
+.forth h3{
+  color:#52AA9D;
+  font-size:2rem;
+  font-weight: 700;
+  margin-top: 100px;
+}
+.forth img{
+  height: 50px;
+  width: 60px;
+  margin: 35px 20px 20px 20px;
+}
+.forth-card{
+  transition: all .2s ease-in-out;
+}
+.fun-body{
+  display: flex;
+  flex-direction: row;
+}
+.fun-body h5{
+  color:#52AA9D;
+  font-weight:500;
+}
+.fun-body p{
+  font-weight: 400;
+  font-size:1.4rem;
+}
+.fund-content{
+  padding:20px;
+}
+.fund-img{
+  background-color:#e7ebee;
+}
+.end{
+  margin-top: 50px;
+}
+.email{
+  color:#52AA9D;
 }
